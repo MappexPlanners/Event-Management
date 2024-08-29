@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mappex Planners – Turning Your Event Ideas into Reality</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mappex Planners</h1>
+        <nav>
+            <a href="#intro">About</a>
+            <a href="#services">Services</a>
+            <a href="#mission">Our Mission</a>
+            <a href="#why-us">Why Choose Us</a>
+            <a href="#faqs">FAQs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Mappex Planners</h2>
+        <h3>"Your Event, Our Passion"</h3>
+    </section>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro">
+        <h1>About Us</h1>
+        <h2>Exceptional Event Management - Turning Your Event Ideas into Reality</h2>
+        <p>At Mappex Planners, we specialize in creating memorable events that exceed your expectations. We arrange events with a focus on sports, corporate gatherings, and more. Let us bring your vision to life with our expertise and dedication.</p>
+        <a href="#contact" class="cta-button">Get in touch</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="service">
+            <h3>Sports Events</h3>
+            <p>Organizing sports events that bring out the best in athletes and provide unforgettable experiences for participants and spectators alike.</p>
+        </div>
+        <div class="service">
+            <h3>Corporate Events</h3>
+            <p>Professional and engaging corporate events tailored to your company's unique goals and needs.</p>
+        </div>
+        <div class="service">
+            <h3>Seminars & Workshops</h3>
+            <p>Creating impactful seminars and workshops that leave a lasting impression on attendees.</p>
+        </div>
+        <div class="service">
+            <h3>National Camps</h3>
+            <p>Comprehensive planning and management of national camps for various organizations and groups.</p>
+        </div>
+    </section>
+
+    <!-- Our Mission Section -->
+    <section id="mission" class="our-mission">
+        <h2>Our Mission</h2>
+        <p>To bring your event vision to life with precision, creativity, and a commitment to excellence. We offer end-to-end event management services, including planning, logistics, on-site coordination, and post-event follow-up, ensuring a seamless and stress-free experience for our clients.</p>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+
+        <p>Our team is deeply committed to delivering exceptional service and meticulously planning every detail to create truly unforgettable events.<br> We strive to exceed your expectations and ensure that every aspect of your event is handled with the utmost care and professionalism.<br> Here’s why our clients trust us:</p>
+
+        <div class="why-grid">
+            <div class="why-card">
+                <i class="fa fa-thumbs-up"></i>
+                <h3>Quality Service</h3>
+                <p>We provide top-notch service to ensure your event is a success.</p>
+            </div>
+            <div class="why-card">
+                <i class="fa fa-lightbulb-o"></i>
+                <h3>Creative Solutions</h3>
+                <p>Our team is full of creative ideas to make your event stand out.</p>
+            </div>
+
+            <div class="why-card">
+                <i class="fa fa-users"></i>
+                <h3>Experienced Team</h3>
+                <p>Our experienced team has a proven track record in event management.</p>
+            </div>
+
+            <div class="why-card">
+                <i class="fa fa-users"></i>
+                <h3>Tailored Approach</h3>
+                <p>We customize every aspect to fit your unique vision and event goals.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section id="faq" class="faqs-section">
+        <h2>FAQs</h2>
+
+             <div class="faq-grid">
+            <div class="faq-card">
+                <i class="fa fa-thumbs-up"></i>
+                <h3>How early should I start planning my event?</h3>
+                <p>We recommend starting the planning process as early as possible, ideally 2-4 months in advance, depending on the size and complexity of the event.</p>
+            </div>
+
+            <div class="faq-card">
+                <i class="fa fa-lightbulb-o"></i>
+                <h3>What types of events do you specialize in?</h3>
+                <p>We specialize in a wide range of events, including sports events, corporate seminars, national camps, and custom events tailored to your needs..</p>
+            </div>
+
+            <div class="faq-card">
+                <i class="fa fa-users"></i>
+                <h3>Can you handle events of any size?</h3>
+                <p>Yes, our team is equipped to manage events of all sizes, from small gatherings to large-scale events with hundreds or thousands of attendees.</p>
+            </div>
+         </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+    <h2>Get Started Today!</h2>
+    <p>Ready to make your next event unforgettable?<br>
+    Contact us for a free consultation and see how Mappex Planners can bring your vision to life.</p>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+    <p>Phone: <a href='+91 8469346876'>+91 8469346876</a><br>
+    Email: <a href="mailto:mappexplanners@gmail.com">mappexplanners@gmail.com</a><br>
+    Instagram: <a href="https://instagram.com/mappexplanners">mappexplanners</a></p>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Mappex Planners. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" onclick="scrollToTop()">Top</div>
+
+    <!-- JavaScript -->
+    <script>
+        // Show Back to Top button after scrolling down
+        window.onscroll = function() {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Smooth scroll to top
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
